@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.esri.android.map.MapView>
+    <RadioGroup
+        android:id="@+id/geometrytype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/notdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="notdo" />
+
+        <RadioButton
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="point" />
+
+        <RadioButton
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="line" />
+
+        <RadioButton
+            android:id="@+id/polygon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="polygon" />
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导出"/>
+
+        <Button
+            android:id="@+id/loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定位"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no1" />
+
+        <CheckBox
+            android:id="@+id/no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no2" />
+
+        <CheckBox
+            android:id="@+id/no3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no3" />
+
+        <CheckBox
+            android:id="@+id/no4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no4" />
+
+        <CheckBox
+            android:id="@+id/no5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no1" />
+
+        <CheckBox
+            android:id="@+id/no6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no2" />
+
+        <CheckBox
+            android:id="@+id/no7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no3" />
+
+        <CheckBox
+            android:id="@+id/no8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no4" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
